@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: DodgerBlue;
+        }
+
+        .flex-container>div {
+            background-color: #f1f1f1;
+            color: rgb(14, 158, 236);
+            margin:60px;
+            width: 10%;
+            font-size: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Perfect Centering</h1>
+
+    <p>A flex container with both the justify-content and the align-items properties set to <em>center</em> will align
+        the item(s) in the center (in both axis).</p>
+
+        <div class="flex-container">
+            <div style="order: 3">1</div>
+            <div style="order: 2">2</div>
+            <div style="order: 4">3</div>
+            <div style="order: 1">4</div>
+        </div>
+  
+</body>
+
+</html>
